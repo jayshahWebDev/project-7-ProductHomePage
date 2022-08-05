@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav-bar section */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: center;
+  padding: 0;
+  margin-left: 5%;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  margin: 0 20px;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
+.active-item {
+  font-family: "Poppins";
+  font-weight: 900;
+  color: #fe5e35;
+}
+
+/* intro-section */
+
+.intro-section {
+  display: flex;
+  flex: 1;
+  height: 85vh;
+}
+
+/* left-side-intro-section */
+
+.left-section {
+  margin-left: 5%;
+  flex: 0.55;
+  margin-top: 3%;
+}
+
+.left-section > h3 {
+  font-size: 45px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.left-section > h3 > img {
+  height: 45px;
+}
+
+.left-section > h1 {
+  font-size: 80px;
+  font-family: "Fredoka One";
+  font-weight: 500;
+}
+
+.sub-headlines {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.sub-headlines > h5 {
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+  font-size: 25px;
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
+.sub-headlines > .sub-headline > img {
+  background-color: #fe5e35;
+  border-radius: 90px;
+  padding: 5px;
+  height: 20px;
+  margin-right: 3%;
+}
+
+.text {
+  margin-top: 7%;
+  margin-right: 4%;
+  font-size: 15px;
+  font-family: "Poppins";
+  font-weight: 100;
+}
+
+.action-btns {
+  position: absolute;
+  bottom: 10%;
+}
+
+.action-btns > button:last-child {
+  margin-left: 20px;
+}
+
+.action-btn {
+  border: none;
+  background-color: #fe5e35;
+  font-size: 20px;
+  font-family: "Poppins";
+  border-radius: 50px;
+  padding: 15px 25px;
+  color: #ffffff;
+}
+
+/* right-side-intro-section */
+
+.right-section {
+  display: flex;
+  flex: 0.45;
+  justify-content: center;
+  align-items: center;
+}
+
+.headphone-div > img:last-child {
+  position: absolute;
+  top: 10%;
+  z-index: -1;
+  height: 550px;
+  right: 5%;
+}
+
+.headphone-div > img:first-child {
+  position: absolute;
+  height: 170px;
+  bottom: 33%;
+  right: 32%;
+  filter: drop-shadow(-5px 5px 0 #3d3d3d);
+}
+
+.discount-content {
+  position: absolute;
+  bottom: 37.5%;
+  right: 34%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.discount-content > h4 {
+  font-family: "Fredoka One";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.discount-content > h1 {
+  margin-top: 0;
+  font-family: "Fredoka One";
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.right-section > .action-btn {
+  position: absolute;
+  bottom: 10%;
+  align-items: center;
+}
+
+.dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 22%;
+}
+
+.dot {
+  border-radius: 90px;
+  height: 30px;
+  width: 30px;
+  margin: 0 15px;
+}
+
+.yellow-dot {
+  background-color: #fbd104;
+}
+
+.tomato-dot {
+  background-color: #fe8e72;
+}
+
+.black-dot {
+  background-color: #000000;
+}
