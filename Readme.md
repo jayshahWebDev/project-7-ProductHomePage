@@ -1,6 +1,6 @@
 # Hey, there everyone `Jay Shah` here
 
-## [Live Project Demo](https://product-home-page-woad.vercel.app/)
+## [Live Project Demo](https://project-7-product-page.netlify.app/)
 
 <br>
 
